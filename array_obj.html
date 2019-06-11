@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> array object </title>
+	<script type="text/javascript">
+		var arr=["man1","man2","man3","man4","man5"];
+		var number=[1,2,3,4,5,6];
+		var arrObj=[{card:11,Name:"bobo"},{card:22,Name:"chuchu"},{card:33,Name:"EiEi"}];
+		function clicked()
+		{
+			/*for(i=0;i<arrObj.lenght;i++)
+			{
+				alert(arrObj[i].Name + " : " + arrObj[i].card);
+			}  */
+			//array_sort
+			arrObj.sort (function (x,y) 
+			{
+				return x.card - y.card ;
+
+			} ) ;
+
+		}
+	</script>
+	</head>
+	<body>
+		<div id="div1">Testing Array</div> <br>
+		<button onclick="clicked()">click this to show names</button>
+	</body>
+
+	
+</html>

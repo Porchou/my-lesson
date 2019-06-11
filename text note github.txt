@@ -1,0 +1,7 @@
+passing string to functions : predifince string functions
+len of the string;
+-string copy
+-sting compile
+when we use handing function we need header <string.h>
+ 
+github push tot

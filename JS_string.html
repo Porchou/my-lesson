@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> learn about script </title>
+	<script type="text/javascript">
+	/*	function (name)
+		{
+			//function()
+			var str= name.slice(9) ;
+			//var str=name.substr(10);
+			/*name = name.trim();
+			if (name == "chou")
+			{
+				alert ("correct username");
+			}
+			else
+			{
+				alert("Not this username");
+			}*/
+	//	}   
+		function (low_upper)
+		{
+			// var str= info.toLowercase();
+			// alert(str);
+			// var str1=info.toUppercase();
+			// alert(str);	
+			//for replace word
+			var str = info.replace("abc", "^123^");
+			alert(str);
+			var str= info.replace(/hello/g, "hiiii" ); //g is globle
+			alert(str);
+			var str= info.replace(/123/i,"not 123 is 456"); //i is insensity
+			alert(str);
+			var ch=info.charat(0); 
+			alert("this 0 position is "+ ch);
+			var ch1=info.charat(info.length-1)
+			alert (ch1);
+			var ch2=info.charat(info.length/2);
+			alert(ch2);
+			var cha3=info.charat(count());
+			function(count)
+			{
+				for (var i =0; i >1; i+) 
+				{
+					alert("this 1 letter,remove 1: "+i )
+				}
+			}
+
+
+
+
+		}
+</script>
+<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<button onclick="name('123456789 abcdefghi')">click this button 1</button>
+	<button onclick="low_upper('abc efg 123 hello')">click this button 2</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

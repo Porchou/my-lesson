@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>  </title>
+	<script scr="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"> </script>
+	<script>
+		var a=angular.module('myapp',[]);
+		a.controller('datctrl' function($scope)
+		{
+			$scope.today=new date();
+		}
+			) ;
+		
+
+	</script>
+	
+		
+	</head>
+
+	<body>
+	<!-- website and web apps?? 
+	 ng-model; ng-init; ng-repeat; ng-copy; ng-cut; ng-blur; ng-focus; ng-paste;    -->
+	<div ng-app="myapp" ng-controller="datctrl">
+	
+	<!-- 	<p > type here : <input type="text" ng-model="write"></p>
+		<p> you wrote :  {{write}} </p> -->
+		<p> this is date : {{today | date}} </p>
+
+
+	</div>
+
+	<div ng-app="" ng-init="names=["k","l","M"] "></div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
